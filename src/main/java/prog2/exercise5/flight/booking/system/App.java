@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class FlightBooking {
 private String flightCompany = "Flights-of-Fancy";
 private String flightID = "lkjaue79dc8";
-private String passengerFullName;
+//private String passengerFullName;
 private double departingTicketPrice;
 private double returnTicketPrice;
 private double totalTicketPrice;
-private String tickerNumber;
+//private String tickerNumber;
 private LocalDate departureDate;
 private LocalDate returnDate2;
 private int childPassengers;
