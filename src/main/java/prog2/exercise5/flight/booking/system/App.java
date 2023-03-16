@@ -494,8 +494,8 @@ public static String usingMath(int length) {
         return this.totalTicketPrice;
     }
     public void content(){
-        String piaojia = "Thank you for booking your flight with "+ flightCompany+"\nYou reserved a total of" + number +"tickets."+"\n\n";
-        System.out.println(piaojia);
+        String tent= "Thank you for booking your flight with "+ flightCompany+"\nYou reserved a total of" + number +"tickets."+"\n\n";
+        System.out.println(tent);
         if (oldDate != returnDate2){
         for (int repeat=number;repeat>0;--repeat){
         System.out.println("Here are the trip details for Passenger No."+(number-repeat+1)+"\n\nPassenger's Ticket Number: "+
