@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class FlightBooking {
 private String flightCompany = "Flights-of-Fancy";
-private String flightID = "lkjaue79dc8";
+private String flightID = "kdjsac85dk8";
 //private String passengerFullName;
 private double departingTicketPrice;
 private double returnTicketPrice;
 private double totalTicketPrice;
-//private String tickerNumber;
+//private String ticketNumber;
 private LocalDate departureDate;
 private LocalDate returnDate2;
 private int childPassengers;
@@ -496,7 +496,7 @@ public static String usingMath(int length) {
         return this.totalTicketPrice;
     }
     public void content(){
-        String tent= "Thank you for booking your flight with "+ flightCompany+"\nYou reserved a total of" + number +"tickets."+"\n\n";
+        String tent = "Thank you for booking your flight with "+ flightCompany+"\nYou reserved a total of" + number +"tickets."+"\n\n";
         System.out.println(tent);
         if (oldDate != returnDate2){
         for (int repeat=number;repeat>0;--repeat){
